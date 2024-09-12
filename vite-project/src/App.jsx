@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './Card'
 import ChildCard from './Children'  
+import Input from "./Input"
+import './input.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -37,6 +39,9 @@ function App() {
           <h3 className="cardDateI">30 de Agosto</h3>
           <h3 className="cardDateF">31 de Agosto</h3>
         </ChildCard>
+      </div>
+      <div className = "input">
+        <Input></Input>
       </div>
     </>
   )
