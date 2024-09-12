@@ -1,0 +1,10 @@
+.cardName{
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 75px;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    background-color: skyblue;
+}
