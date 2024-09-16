@@ -5,6 +5,7 @@ import './App.css'
 import Card from './Card'
 import ChildCard from './Children'  
 import Contador from './Contador'
+import ContadorMostrar from './ContadorMostrar'
 import Input from "./Input"
 import './input.css'
 
@@ -52,8 +53,8 @@ function App() {
         <Contador c ={0}></Contador>
       </div>
       {/*TA 5*/}
-      <div class = "mostrarTexto">
-        
+      <div class = "contadorMostrar">
+        <ContadorMostrar c ={0}></ContadorMostrar>
       </div>
     </>
   )
