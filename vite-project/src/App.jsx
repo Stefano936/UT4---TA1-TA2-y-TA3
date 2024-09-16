@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './Card'
 import ChildCard from './Children'  
+import Contador from './Contador'
 import Input from "./Input"
 import './input.css'
 
@@ -12,11 +13,13 @@ function App() {
 
   return (
     <>
+      {/*TA 1*/}
       <div class = "card">
         <Card title={"Entrega 1"} description={"Desarolla una tarea"} name={"Pedro"} dateStart={"30 de Agosto"} dateEnd={"31 de Agosto"}></Card>
         <Card title={"Entrega 2"} description={"Desarolla una tarea"} name={"Pepe"} dateStart={"31 de Agosto"} dateEnd={"1 de Setiembre"}></Card>
         <Card title={"Entrega 3"} description={"Desarolla una tarea"} name={"Seba"} dateStart={"31 de Agosto"} dateEnd={"1 de Setiembre"}></Card>
       </div>
+      {/*TA 2 */}
       <div class = "children">
         <ChildCard>
           <h1 className="cardTitle">Entrega 1</h1> 
@@ -40,8 +43,17 @@ function App() {
           <h3 className="cardDateF">31 de Agosto</h3>
         </ChildCard>
       </div>
+      {/*TA 3*/}
       <div className = "input">
         <Input></Input>
+      </div>
+      {/*TA 4*/}
+      <div class = "contador">
+        <Contador c ={0}></Contador>
+      </div>
+      {/*TA 5*/}
+      <div class = "mostrarTexto">
+        
       </div>
     </>
   )

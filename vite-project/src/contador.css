@@ -1,0 +1,14 @@
+.contador {
+    border: 1px solid black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    background-color: skyblue;
+}
+
+.contadorButton{
+    padding-right: 20px;
+    margin-right: 10px;
+}
