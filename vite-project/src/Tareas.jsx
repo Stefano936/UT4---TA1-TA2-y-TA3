@@ -12,6 +12,12 @@ const agregarTarea = () => {
     }
 };
 
+const borrarTarea = (index) => {
+    const nuevasTareas = [...tareas];
+    nuevasTareas.splice(index, 1);
+    setTareas(nuevasTareas);
+}
+
 const handleInputChange = (e) => {
     setNuevaTarea(e.target.value);
 };
@@ -26,6 +32,7 @@ return (
         placeholder="Ingrese una nueva tarea"
     />
     <button id = "agregarTarea" onClick={agregarTarea}>Agregar Tarea</button>
+    <button id = "borrarTarea" onClick={borrarTarea}>Borrar Tarea</button>
     <ul>
         {tareas.map((tarea, index) => (
             <li key={index}>{tarea}</li>
