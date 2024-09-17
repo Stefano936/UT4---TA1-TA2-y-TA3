@@ -8,6 +8,7 @@ import Contador from './Contador'
 import ContadorMostrar from './ContadorMostrar'
 import Input from "./Input"
 import './input.css'
+import Tareas from './Tareas'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -55,6 +56,10 @@ function App() {
       {/*TA 5*/}
       <div class = "contadorMostrar">
         <ContadorMostrar c ={0}></ContadorMostrar>
+      </div>
+      {/*TA 6*/}
+      <div class = "listaTareas">
+        <Tareas></Tareas>
       </div>
     </>
   )
