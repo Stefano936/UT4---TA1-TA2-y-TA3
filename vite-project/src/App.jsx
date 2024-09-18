@@ -10,6 +10,7 @@ import Input from "./Input"
 import './input.css'
 import Tareas from './Tareas'
 import Contador2 from './Contador2'
+import UserList from './ta10'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -65,6 +66,10 @@ function App() {
       {/*TA 9*/}
       <div>
         <Contador2 c ={0}></Contador2>
+      </div>
+      {/*TA 10*/}
+      <div>
+        <UserList></UserList>
       </div>
     </>
   )
