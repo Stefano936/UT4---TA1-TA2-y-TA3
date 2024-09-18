@@ -11,6 +11,7 @@ import './input.css'
 import Tareas from './Tareas'
 import Contador2 from './Contador2'
 import UserList from './ta10'
+import Timer from './ta11'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -70,6 +71,10 @@ function App() {
       {/*TA 10*/}
       <div>
         <UserList></UserList>
+      </div>
+      {/*TA 11*/}
+      <div>
+        <Timer></Timer>
       </div>
     </>
   )
